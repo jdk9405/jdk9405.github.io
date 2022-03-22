@@ -58,6 +58,42 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="selftune_stop()" onmouseover="selftune_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='selftune_image'>
+                  <img src='image/selftune.avi' width="180"></div>
+                <img src='image/selftune.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function smvs_start() {
+                  document.getElementById('selftune_image').style.opacity = "1";
+                }
+
+                function smvs_stop() {
+                  document.getElementById('selftune_image').style.opacity = "0";
+                }
+                smvs_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+             <a href="https://arxiv.org/abs/2203.05332">
+              <papertitle>SelfTune: Metrically Scaled Monocular Depth Estimation through Self-Supervised Learning</papertitle>
+             </a>
+              <br>
+              Jaehoon Choi*, <strong>Dongki Jung*</strong>, Yonghan Lee, Deokhwa Kim, Dinesh Manocha, Donghwan Lee
+              <br>
+              <em>Accepted to ICRA</em>, 2022
+              <br>
+<!--              <a href="https://arxiv.org/abs/2203.05332">arXiv</a>-->
+              <br>
+              <p></p>
+              <p>
+                We have developed a fine-tuning method for metrically accurate depth estimation in a self-supervised way.
+              </p>
+            </td>
+          </tr>
+
           <tr onmouseout="dnd_stop()" onmouseover="dnd_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
