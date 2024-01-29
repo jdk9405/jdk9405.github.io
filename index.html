@@ -76,6 +76,45 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+              <tr onmouseout="wayil_stop()" onmouseover="wayil_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='wayil_image'>
+                      <img src="image/wayil.gif" width="200">
+                    </div>
+                    <img src='image/wayil_image_resize.png' width="200">
+                  </div>
+                  <script type="text/javascript">
+                    function wayil_start() {
+                      document.getElementById('wayil_image').style.opacity = "1";
+                    }
+
+                    function wayil_stop() {
+                      document.getElementById('wayil_image').style.opacity = "0";
+                    }
+                    wayil_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a
+                    href="https://jdk9405.github.io/">
+                    <papertitle>WayIL: Image-based Indoor Localization with Wayfinding Maps
+                    </papertitle>
+                  </a>
+                  <br>
+                  Obin Kwon, <strong>Dongki Jung</strong>, Youngji Kim, Soohyun Ryu, Suyong Yeon, Songhwai Oh, Donghwan Lee
+                  <br>
+                  <em>Accepted to ICRA</em>, 2024
+                  <br>
+                  <!--              <a href="https://arxiv.org/abs/2203.05332">arXiv</a>-->
+                  <br>
+                  <p></p>
+                  <p>
+                    We address robot localization in large-scale indoor environments using wayfinding maps.
+                  </p>
+                </td>
+              </tr>
+
               <tr onmouseout="tmo_stop()" onmouseover="tmo_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
