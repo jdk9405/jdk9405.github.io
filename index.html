@@ -79,6 +79,86 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+              <tr onmouseout="edm_stop()" onmouseover="edm_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='edm_image'>
+                      <img src="image/edm.png" width="200">
+                    </div>
+                    <img src='image/edm.png' width="200">
+                  </div>
+                  <script type="text/javascript">
+                    function edm_start() {
+                      document.getElementById('edm_image').style.opacity = "1";
+                    }
+
+                    function edm_stop() {
+                      document.getElementById('edm_image').style.opacity = "0";
+                    }
+                    edm_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a
+                    href="https://jdk9405.github.io/">
+                    <papertitle>EDM: Equirectangular Projection-Oriented Dense Kernelized Feature Matching
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>Dongki Jung</strong>, Jaehoon Choi, Yonghan Lee, Somi Jeong, Taejae Lee, Dinesh Manocha, Suyong Yeon 
+                  <!-- <br> -->
+                  <!-- <em>Accepted to ICRA</em> -->
+                  <!-- <br> -->
+                  <!-- <a href="https://arxiv.org/pdf/2410.04646">arXiv</a> -->
+                  <br>
+                  <p></p>
+                  <p>
+                    We propose the first learning-based dense matching algorithm for omnidirectional images.
+                  </p>
+                </td>
+              </tr>
+              
+              
+              <tr onmouseout="modegs_stop()" onmouseover="modegs_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='modegs_image'>
+                      <img src="image/modegs.png" width="200">
+                    </div>
+                    <img src='image/modegs.png' width="200">
+                  </div>
+                  <script type="text/javascript">
+                    function modegs_start() {
+                      document.getElementById('modegs_image').style.opacity = "1";
+                    }
+
+                    function modegs_stop() {
+                      document.getElementById('modegs_image').style.opacity = "0";
+                    }
+                    modegs_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a
+                    href="https://arxiv.org/pdf/2410.04646">
+                    <papertitle>Mode-GS: Monocular Depth Guided Anchored 3D Gaussian Splatting for Robust Ground-View Scene Rendering
+                    </papertitle>
+                  </a>
+                  <br>
+                  Yonghan Lee, Jaehoon Choi, <strong>Dongki Jung</strong>, Jaeseong Yun, Soohyun Ryu, Dinesh Manocha, and Suyong Yeon
+                  <!-- <br> -->
+                  <!-- <em>Accepted to ICRA</em> -->
+                  <!-- <br> -->
+                  <a href="https://arxiv.org/pdf/2410.04646">arXiv</a>
+                  <br>
+                  <p></p>
+                  <p>
+                    We propose a novel 3D Gaussian Splatting algorithm that integrates monocular depth network with anchored Gaussian Splatting, enabling robust rendering performance on sparse-view datasets.
+                  </p>
+                </td>
+              </tr>
+
+              
               <tr onmouseout="wayil_stop()" onmouseover="wayil_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
@@ -100,7 +180,7 @@
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a
-                    href="https://jdk9405.github.io/">
+                    href="https://rllab-snu.github.io/projects/WayIL/">
                     <papertitle>WayIL: Image-based Indoor Localization with Wayfinding Maps
                     </papertitle>
                   </a>
@@ -109,7 +189,7 @@
                   <br>
                   <em>Accepted to ICRA</em>, 2024
                   <br>
-                  <!--              <a href="https://arxiv.org/abs/2203.05332">arXiv</a>-->
+                               <a href="https://rllab.snu.ac.kr/publications/papers/2024_icra_wayil.pdf">arXiv</a>
                   <br>
                   <p></p>
                   <p>
