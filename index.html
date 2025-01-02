@@ -79,6 +79,49 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+
+              <tr onmouseout="im360_stop()" onmouseover="im360_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='im360_image'>
+                      <img src="image/im360.png" width="500" >
+                    </div>
+                    <img src='image/im360_1.png' width="190">
+                  </div>
+                  <script type="text/javascript">
+                    function im360_start() {
+                      document.getElementById('im360_image').style.opacity = "1";
+                    }
+
+                    function im360_stop() {
+                      document.getElementById('im360_image').style.opacity = "0";
+                    }
+                    im360_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a
+                    href="">
+                    <papertitle>IM360: Textured Mesh Reconstruction for Large-scale Indoor Mapping with 360° Cameras
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>Dongki Jung</strong>, Jaehoon Choi, Yonghan Lee, Dinesh Manocha
+                  <!-- <br> -->
+                  <!-- <em>Accepted to ICRA</em> -->
+                  <br>
+                  <!-- <a href="">arXiv</a> -->
+                  Submitted
+                  <br>
+                  <p></p>
+                  <p>
+                    We propose a complete pipeline for indoor mapping using omnidirectional images, consisting of three key stages: (1) Spherical SfM, (2) Neural Surface Reconstruction, and (3) Texture Optimization.
+                  </p>
+                </td>
+              </tr>
+
+
+
               <tr onmouseout="edm_stop()" onmouseover="edm_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
@@ -107,9 +150,10 @@
                   </a>
                   <br>
                   <strong>Dongki Jung</strong>, Jaehoon Choi, Yonghan Lee, Somi Jeong, Taejae Lee, Dinesh Manocha, Suyong Yeon 
-                  <!-- <br> -->
+                  <br>
+                  Submitted
                   <!-- <em>Accepted to ICRA</em> -->
-                  <!-- <br> -->
+                  <br>
                   <!-- <a href="https://arxiv.org/pdf/2410.04646">arXiv</a> -->
                   <br>
                   <p></p>
