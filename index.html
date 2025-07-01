@@ -75,58 +75,157 @@
             </tbody>
           </table>
 
+
+<!-- Preprints -->
+
+
+
+
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
-
-
-
-              <tr onmouseout="edm_stop()" onmouseover="edm_start()">
+              <tr onmouseout="uav4d_stop()" onmouseover="uav4d_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
+                <heading>Preprints</heading>
                   <div class="one">
-                    <div class="two" id='edm_image'>
-                      <img src="image/edm.png" width="200">
+                    <div class="two" id='uav4d_image'>
+                      <img src="image/uav4d.gif" width="190" >
                     </div>
-                    <img src='image/edm.png' width="200">
+                    <img src='image/uav4d.png' width="190">
                   </div>
                   <script type="text/javascript">
-                    function edm_start() {
-                      document.getElementById('edm_image').style.opacity = "1";
+                    function uav4d_start() {
+                      document.getElementById('uav4d_image').style.opacity = "1";
                     }
 
-                    function edm_stop() {
-                      document.getElementById('edm_image').style.opacity = "0";
+                    function uav4d_stop() {
+                      document.getElementById('uav4d_image').style.opacity = "0";
                     }
-                    edm_stop()
-                    We propose a novel 3D Gaussian Splatting algorithm that integrates monocular depth network with anchored Gaussian Splatting, enabling robust rendering performance on sparse-view datasets.
+                    uav4d_stop()
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a
-                    href="https://arxiv.org/abs/2502.20685">
-                    <papertitle>EDM: Equirectangular Projection-Oriented Dense Kernelized Feature Matching
+                    href="https://www.arxiv.org/abs/2506.05011">
+                    <papertitle>UAV4D: Dynamic Neural Rendering of Human-Centric UAV Imagery using Gaussian Splatting
                     </papertitle>
                   </a>
                   <br>
-                  <strong>Dongki Jung</strong>, Jaehoon Choi, Yonghan Lee, Somi Jeong, Taejae Lee, Dinesh Manocha, Suyong Yeon 
-                  <br>
-                  CVPR, 2025
+                  Jaehoon Choi, <strong><u>Dongki Jung</u></strong>, Christopher Maxey, Sungmin Eum, Yonghan Lee, Dinesh Manocha, and Heesung Kwon
+                  <!-- <br> -->
                   <!-- <em>Accepted to ICRA</em> -->
                   <br>
-                  <!-- <a href="https://arxiv.org/pdf/2410.04646">arXiv</a> -->
+                  <!-- <a href="">arXiv</a> -->
+                  <a href="https://www.arxiv.org/abs/2506.05011">[arXiv]</a>
+                  <a href="https://uav4d.github.io/">[Project]</a>
                   <br>
-                  <p></p>
-                  <p>
-                    We propose the first learning-based dense matching algorithm for omnidirectional images.
-                  </p>
+                    We introduce UAV4D, a framework for enabling photorealistic rendering for dynamic real-world scenes captured by UAVs.
+                  <br>
+                  <br>
                 </td>
               </tr>
 
 
+              <tr onmouseout="uavtwin_stop()" onmouseover="uavtwin_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='uavtwin_image'>
+                      <br><br>
+                      <img src="image/uavtwin.gif" width="195" >
+                    </div>
+                    <br><br>
+                    <img src='image/uavtwin.png' width="195">
+                  </div>
+                  <script type="text/javascript">
+                    function uavtwin_start() {
+                      document.getElementById('uavtwin_image').style.opacity = "1";
+                    }
+
+                    function uavtwin_stop() {
+                      document.getElementById('uavtwin_image').style.opacity = "0";
+                    }
+                    uavtwin_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a
+                    href="https://arxiv.org/abs/2504.02158">
+                    <papertitle>UAVTwin: Neural Digital Twins for UAVs using Gaussian Splatting
+                    </papertitle>
+                  </a>
+                  <br>
+                  Jaehoon Choi, <strong><u>Dongki Jung</u></strong>, Yonghan Lee, Sungmin Eum, Dinesh Manocha, and Heesung Kwon
+                  <br>
+                  <a href="https://arxiv.org/abs/2504.02158">[arXiv]</a>
+                  <a href="https://uavgsim.github.io/">[Project]</a>
+                  <br>
+                    We present a method for creating digital twins from real-world environments and facilitating data augmentation for training downstream models embedded in unmanned aerial vehicles (UAVs).
+                  </br>
+                  <!-- <br><br><br> -->
+                </td>
+              </tr>
+
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <tr onmouseout="modegs_stop()" onmouseover="modegs_start()">
+                      <td style="padding:20px;width:25%;vertical-align:middle">
+                        <div class="one">
+                          <div class="two" id='modegs_image'>
+                            <img src="image/modegs.png" width="200">
+                          </div>
+                          <img src='image/modegs.png' width="200">
+                        </div>
+                        <script type="text/javascript">
+                          function modegs_start() {
+                            document.getElementById('modegs_image').style.opacity = "1";
+                          }
+
+                          function modegs_stop() {
+                            document.getElementById('modegs_image').style.opacity = "0";
+                          }
+                          modegs_stop()
+                        </script>
+                      </td>
+                      <td style="padding:20px;width:75%;vertical-align:middle">
+                        <a
+                          href="https://arxiv.org/pdf/2410.04646">
+                          <papertitle>Mode-GS: Monocular Depth Guided Anchored 3D Gaussian Splatting for Robust Ground-View Scene Rendering
+                          </papertitle>
+                        </a>
+                        <br>
+                        Yonghan Lee, Jaehoon Choi, <strong><u>Dongki Jung</u></strong>, Jaeseong Yun, Soohyun Ryu, Dinesh Manocha, and Suyong Yeon
+                        <!-- <br> -->
+                        <!-- <em>Accepted to ICRA</em> -->
+                        <br>
+                        <a href="https://arxiv.org/pdf/2410.04646">[arXiv]</a>
+                        <br>
+                        <p></p>
+                        <p>
+                          We propose a novel 3D Gaussian Splatting algorithm that integrates monocular depth network with anchored Gaussian Splatting, enabling robust rendering performance on sparse-view datasets.
+                        </p>
+                      </td>
+                    </tr>
+                </td>
+              </tr>
+ 
+
+            </tbody>
+          </table>
+
+
+
+
+<!-- Publications -->
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
 
               <tr onmouseout="im360_stop()" onmouseover="im360_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
+                <heading>Publications</heading>
                   <div class="one">
                     <div class="two" id='im360_image'>
                       <img src="image/im360.png" width="500" >
@@ -147,65 +246,69 @@
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a
                     href="https://arxiv.org/abs/2502.12545">
-                    <papertitle>IM360: Textured Mesh Reconstruction for Large-scale Indoor Mapping with 360° Cameras
+                    <papertitle>IM360: Large-scale Indoor Mapping with 360 Cameras
                     </papertitle>
                   </a>
                   <br>
-                  <strong>Dongki Jung*</strong>, Jaehoon Choi*, Yonghan Lee, Dinesh Manocha
+                  <strong><u>Dongki Jung</u></strong>*, Jaehoon Choi*, Yonghan Lee, Dinesh Manocha
                   <!-- <br> -->
                   <!-- <em>Accepted to ICRA</em> -->
                   <br>
                   <!-- <a href="">arXiv</a> -->
-                  Submitted
+                  ICCV, 2025
                   <br>
-                  <p></p>
-                  <p>
+                  <a href="https://jdk9405.github.io/IM360/">[Project]</a>
+                  <br>
                     We propose a complete pipeline for indoor mapping using omnidirectional images, consisting of three key stages: (1) Spherical SfM, (2) Neural Surface Reconstruction, and (3) Texture Optimization.
-                  </p>
+                  </br>
                 </td>
               </tr>
 
-              
-              <tr onmouseout="modegs_stop()" onmouseover="modegs_start()">
+
+
+              <tr onmouseout="edm_stop()" onmouseover="edm_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='modegs_image'>
-                      <img src="image/modegs.png" width="200">
+                    <div class="two" id='edm_image'>
+                      <img src="image/edm.png" width="195">
                     </div>
-                    <img src='image/modegs.png' width="200">
+                    <img src='image/edm.png' width="195">
                   </div>
                   <script type="text/javascript">
-                    function modegs_start() {
-                      document.getElementById('modegs_image').style.opacity = "1";
+                    function edm_start() {
+                      document.getElementById('edm_image').style.opacity = "1";
                     }
 
-                    function modegs_stop() {
-                      document.getElementById('modegs_image').style.opacity = "0";
+                    function edm_stop() {
+                      document.getElementById('edm_image').style.opacity = "0";
                     }
-                    modegs_stop()
+                    edm_stop()
+                    We propose a novel 3D Gaussian Splatting algorithm that integrates monocular depth network with anchored Gaussian Splatting, enabling robust rendering performance on sparse-view datasets.
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a
-                    href="https://arxiv.org/pdf/2410.04646">
-                    <papertitle>Mode-GS: Monocular Depth Guided Anchored 3D Gaussian Splatting for Robust Ground-View Scene Rendering
+                    href="https://arxiv.org/abs/2502.20685">
+                    <papertitle>EDM: Equirectangular Projection-Oriented Dense Kernelized Feature Matching
                     </papertitle>
                   </a>
                   <br>
-                  Yonghan Lee, Jaehoon Choi, <strong>Dongki Jung</strong>, Jaeseong Yun, Soohyun Ryu, Dinesh Manocha, and Suyong Yeon
-                  <!-- <br> -->
+                  <strong><u>Dongki Jung</u></strong>, Jaehoon Choi, Yonghan Lee, Somi Jeong, Taejae Lee, Dinesh Manocha, Suyong Yeon 
+                  <br>
+                  CVPR, 2025
                   <!-- <em>Accepted to ICRA</em> -->
                   <br>
-                  <a href="https://arxiv.org/pdf/2410.04646">arXiv</a>
+                  <a href="https://jdk9405.github.io/EDM/">[Project]</a>
+                  <!-- <a href="https://arxiv.org/pdf/2410.04646">arXiv</a> -->
                   <br>
-                  <p></p>
-                  <p>
-                    We propose a novel 3D Gaussian Splatting algorithm that integrates monocular depth network with anchored Gaussian Splatting, enabling robust rendering performance on sparse-view datasets.
-                  </p>
+                  <!-- <p></p> -->
+                  <!-- <p> -->
+                    We propose the first learning-based dense matching algorithm for omnidirectional images.
+                  <!-- </p> -->
                 </td>
               </tr>
 
-              
+               
               <tr onmouseout="wayil_stop()" onmouseover="wayil_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
@@ -232,7 +335,7 @@
                     </papertitle>
                   </a>
                   <br>
-                  Obin Kwon, <strong>Dongki Jung</strong>, Youngji Kim, Soohyun Ryu, Suyong Yeon, Songhwai Oh, Donghwan Lee
+                  Obin Kwon, <strong><u>Dongki Jung</u></strong>, Youngji Kim, Soohyun Ryu, Suyong Yeon, Songhwai Oh, Donghwan Lee
                   <br>
                   <em>ICRA</em>, 2024
                   <!-- <br> -->
@@ -272,17 +375,18 @@
                     </papertitle>
                   </a>
                   <br>
-                  Jaehoon Choi, <strong>Dongki Jung</strong>, Taejae Lee, Sangwook Kim, Youngdong Jung, Dinesh Manocha,
+                  Jaehoon Choi, <strong><u>Dongki Jung</u></strong>, Taejae Lee, Sangwook Kim, Youngdong Jung, Dinesh Manocha,
                   Donghwan Lee
                   <br>
                   <em>CVPR</em>, 2023
                   <br>
+                  <a href="https://jh-choi.github.io/TMO/">[Project]</a>
                   <!--              <a href="https://arxiv.org/abs/2203.05332">arXiv</a>-->
                   <br>
-                  <p></p>
-                  <p>
+                  <!-- <p></p> -->
+                  <!-- <p> -->
                     We present a new pipeline for acquiring a textured mesh in the wild with a mobile device.
-                  </p>
+                  <!-- </p> -->
                 </td>
               </tr>
 
@@ -290,8 +394,10 @@
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='selftune_image'>
+                      <br>
                       <img src="image/selftune.gif" width="200">
                     </div>
+                    <br>
                     <img src='image/selftune_resize.png' width="190">
                   </div>
                   <script type="text/javascript">
@@ -311,7 +417,7 @@
                     </papertitle>
                   </a>
                   <br>
-                  Jaehoon Choi*, <strong>Dongki Jung*</strong>, Yonghan Lee, Deokhwa Kim, Dinesh Manocha, Donghwan Lee
+                  Jaehoon Choi*, <strong><u>Dongki Jung</u></strong>*, Yonghan Lee, Deokhwa Kim, Dinesh Manocha, Donghwan Lee
                   <br>
                   <em>ICRA</em>, 2022
                   <br>
@@ -330,8 +436,10 @@
                   <div class="one">
                     <div class="two" id='dnd_image'>
                       <!--                  <img src='image/DnD_resize.png' width="190"></div>-->
+                      <br>
                       <img src="image/dnd.gif" width="190">
                     </div>
+                    <br>
                     <img src='image/DnD_resize.png' width="190">
                   </div>
                   <script type="text/javascript">
@@ -351,7 +459,7 @@
                     <papertitle>DnD: Dense Depth Estimation in Crowded Dynamic Indoor Scenes</papertitle>
                   </a>
                   <br>
-                  <strong>Dongki Jung*</strong>, Jaehoon Choi*, Yonghan Lee, Deokhwa Kim, Changick Kim,
+                  <strong><u>Dongki Jung</u></strong>*, Jaehoon Choi*, Yonghan Lee, Deokhwa Kim, Changick Kim,
                   Dinesh Manocha,
                   Donghwan Lee
                   <br>
@@ -393,7 +501,7 @@
                       Learning Method for Multi-view Stereo</papertitle>
                   </a>
                   <br>
-                  Taekyung Kim, Jaehoon Choi, Seokeon Choi, <strong>Dongki Jung</strong>, Changick Kim
+                  Taekyung Kim, Jaehoon Choi, Seokeon Choi, <strong><u>Dongki Jung</u></strong>, Changick Kim
                   <br>
                   <em>ICCV</em>, 2021
                   <br>
@@ -410,8 +518,10 @@
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='selfdeco_image'>
+                      <br>
                       <img src='image/selfdeco.PNG' width="190">
                     </div>
+                    <br>
                     <img src='image/selfdeco.PNG' width="190">
                   </div>
                   <script type="text/javascript">
@@ -431,7 +541,7 @@
                     </papertitle>
                   </a>
                   <br>
-                  Jaehoon Choi, <strong>Dongki Jung</strong>, Yonghan Lee, Deokhwa Kim,
+                  Jaehoon Choi, <strong><u>Dongki Jung</u></strong>, Yonghan Lee, Deokhwa Kim,
                   Dinesh Manocha,
                   Donghwan Lee
                   <br>
@@ -451,8 +561,10 @@
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='safe_image'>
+                      <br>
                       <img src='image/SAFENet.PNG' width="190">
                     </div>
+                    <br>
                     <img src='image/SAFENet.PNG' width="190">
                   </div>
                   <script type="text/javascript">
@@ -472,7 +584,7 @@
                       Extraction</papertitle>
                   </a>
                   <br>
-                  Jaehoon Choi*, <strong>Dongki Jung*</strong>, Donghwan Lee, Changick Kim
+                  Jaehoon Choi*, <strong><u>Dongki Jung</u></strong>*, Donghwan Lee, Changick Kim
                   <br>
                   <em>NeurIPS Workshop on Machine Learning for Autonomous Driving</em>, 2020
                   <br>
@@ -509,7 +621,7 @@
                     <papertitle>Arbitrary Style Transfer Using Graph Instance Normalization</papertitle>
                   </a>
                   <br>
-                  <strong>Dongki Jung</strong>, Seunghan Yang, Jaehoon Choi, Changick Kim
+                  <strong><u>Dongki Jung</u></strong>, Seunghan Yang, Jaehoon Choi, Changick Kim
                   <br>
                   <em>ICIP</em>, 2020
                   <br>
@@ -524,8 +636,10 @@
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='gdpa_image'>
+                      <br><br>
                       <img src='image/gdpa_resize.png' width="190">
                     </div>
+                    <br><br>
                     <img src='image/gdpa_resize.png' width="190">
                   </div>
                   <script type="text/javascript">
@@ -541,10 +655,10 @@
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://arxiv.org/pdf/2005.07858.pdf">
-                    <papertitle>PARTIAL DOMAIN ADAPTATION USING GRAPH CONVOLUTIONAL NETWORKS</papertitle>
+                    <papertitle>Partial Domain Adaptation Using Graph Convolutional Networks</papertitle>
                   </a>
                   <br>
-                  Seunghan Yang, Youngeun Kim, <strong>Dongki Jung</strong>, Changick Kim
+                  Seunghan Yang, Youngeun Kim, <strong><u>Dongki Jung</u></strong>, Changick Kim
                   <br>
                   <em>arXiv</em>, 2020
                   <br>
