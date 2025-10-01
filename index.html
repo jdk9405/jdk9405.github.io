@@ -86,8 +86,8 @@
             <tbody>
 
               <tr onmouseout="uav4d_stop()" onmouseover="uav4d_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
                 <heading>Preprints</heading>
+                <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='uav4d_image'>
                       <img src="image/uav4d.gif" width="190" >
@@ -223,12 +223,57 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
-              <tr onmouseout="im360_stop()" onmouseover="im360_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
+
+              <tr onmouseout="rpg360_stop()" onmouseover="rpg360_start()">
                 <heading>Publications</heading>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                <!-- <heading>Publications</heading> -->
+                  <div class="one">
+                    <div class="two" id='rpg360_image'>
+                      <img src="image/rpg360_2.png" width="190" >
+                    </div>
+                    <img src='image/rpg360_1.png' width="190">
+                  </div>
+                  <script type="text/javascript">
+                    function rpg360_start() {
+                      document.getElementById('rpg360_image').style.opacity = "1";
+                    }
+
+                    function rpg360_stop() {
+                      document.getElementById('rpg360_image').style.opacity = "0";
+                    }
+                    rpg360_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a
+                    href="https://arxiv.org/abs/2502.12545">
+                    <papertitle>
+                    RPG360: Robust 360 Depth Estimation with Perspective Foundation Models and Graph Optimization
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong><u>Dongki Jung</u></strong>, Jaehoon Choi, Yonghan Lee, Dinesh Manocha
+                  <!-- <br> -->
+                  <!-- <em>Accepted to ICRA</em> -->
+                  <br>
+                  <!-- <a href="">arXiv</a> -->
+                  NeurIPS, 2025
+                  <br>
+                  <a href="https://jdk9405.github.io/RPG360/">[Project]</a>
+                  <br>
+                  RPG360 leverages the prior knowledge of the perspective foudnation model along with graph optimization, thereby enchances 3D structural awareness and achieves superior performance.
+                  </br>
+                </td>
+              </tr>
+
+              <tr onmouseout="im360_stop()" onmouseover="im360_start()">
+                <heading>Publications</heading>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                <!-- <heading>Publications</heading> -->
                   <div class="one">
                     <div class="two" id='im360_image'>
-                      <img src="image/im360.png" width="500" >
+                      <img src="image/im360_1.png" width="190" >
                     </div>
                     <img src='image/im360_1.png' width="190">
                   </div>
