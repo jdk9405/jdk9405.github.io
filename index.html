@@ -88,6 +88,47 @@
               <heading>Preprints</heading>
 
 
+              <tr onmouseout="wid3r_stop()" onmouseover="wid3r_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='wid3r_image'>
+                      <br><br>
+                      <img src="image/Wid3R2.png" width="195" >
+                    </div>
+                    <br><br>
+                    <img src='image/Wid3R1.png' width="195">
+                  </div>
+                  <script type="text/javascript">
+                    function wid3r_start() {
+                      document.getElementById('wid3r_image').style.opacity = "1";
+                    }
+
+                    function wid3r_stop() {
+                      document.getElementById('wid3r_image').style.opacity = "0";
+                    }
+                    wid3r_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a
+                    href="https://arxiv.org/pdf/2602.05321">
+                    <papertitle>Wide Field-of-View 3D Reconstruction via Camera Model Conditioning
+                    </papertitle>
+                  </a>
+                  <br>
+
+                  <strong><u>Dongki Jung</u></strong>, Jaehoon Choi, Adil Qureshi, Somi Jeong, Dinesh Manocha, and Suyong Yeon
+                  <br>
+                  <a href="https://arxiv.org/pdf/2602.05321">[arXiv]</a>
+                  <a href="https://jdk9405.github.io/Wid3R/">[Project]</a>
+                  <br>
+                    We present Wid3R, a feed-forward neural network for visual geometry reconstruction that supports wide field-of-view camera models.
+                  </br>
+                  <!-- <br><br><br> -->
+                </td>
+              </tr>
+
+
 
 
               <tr onmouseout="uavtwin_stop()" onmouseover="uavtwin_start()">
@@ -354,6 +395,48 @@
                 </td>
               </tr>
 
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <tr onmouseout="modegs_stop()" onmouseover="modegs_start()">
+                      <td style="padding:20px;width:25%;vertical-align:middle">
+                        <div class="one">
+                          <div class="two" id='modegs_image'>
+                            <img src="image/modegs.png" width="200">
+                          </div>
+                          <img src='image/modegs.png' width="200">
+                        </div>
+                        <script type="text/javascript">
+                          function modegs_start() {
+                            document.getElementById('modegs_image').style.opacity = "1";
+                          }
+
+                          function modegs_stop() {
+                            document.getElementById('modegs_image').style.opacity = "0";
+                          }
+                          modegs_stop()
+                        </script>
+                      </td>
+                      <td style="padding:20px;width:75%;vertical-align:middle">
+                        <a
+                          href="https://arxiv.org/pdf/2410.04646">
+                          <papertitle>Mode-GS: Monocular Depth Guided Anchored 3D Gaussian Splatting for Robust Ground-View Scene Rendering
+                          </papertitle>
+                        </a>
+                        <br>
+                        Yonghan Lee, Jaehoon Choi, <strong><u>Dongki Jung</u></strong>, Jaeseong Yun, Soohyun Ryu, Dinesh Manocha, and Suyong Yeon
+                        <!-- <br> -->
+                        <!-- <em>Accepted to ICRA</em> -->
+                        <br>
+                        <a href="https://arxiv.org/pdf/2410.04646">[arXiv]</a>, 2024
+                        <br>
+                        <p></p>
+                        <p>
+                          We propose a novel 3D Gaussian Splatting algorithm that integrates monocular depth network with anchored Gaussian Splatting, enabling robust rendering performance on sparse-view datasets.
+                        </p>
+                      </td>
+                    </tr>
+                </td>
+              </tr>
                
               <tr onmouseout="wayil_stop()" onmouseover="wayil_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -675,49 +758,6 @@
                   <p></p>
                   <p>We present a novel learnable normalization technique for style transfer using graph convolutional
                     networks.</p>
-                </td>
-              </tr>
-
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                    <tr onmouseout="modegs_stop()" onmouseover="modegs_start()">
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                        <div class="one">
-                          <div class="two" id='modegs_image'>
-                            <img src="image/modegs.png" width="200">
-                          </div>
-                          <img src='image/modegs.png' width="200">
-                        </div>
-                        <script type="text/javascript">
-                          function modegs_start() {
-                            document.getElementById('modegs_image').style.opacity = "1";
-                          }
-
-                          function modegs_stop() {
-                            document.getElementById('modegs_image').style.opacity = "0";
-                          }
-                          modegs_stop()
-                        </script>
-                      </td>
-                      <td style="padding:20px;width:75%;vertical-align:middle">
-                        <a
-                          href="https://arxiv.org/pdf/2410.04646">
-                          <papertitle>Mode-GS: Monocular Depth Guided Anchored 3D Gaussian Splatting for Robust Ground-View Scene Rendering
-                          </papertitle>
-                        </a>
-                        <br>
-                        Yonghan Lee, Jaehoon Choi, <strong><u>Dongki Jung</u></strong>, Jaeseong Yun, Soohyun Ryu, Dinesh Manocha, and Suyong Yeon
-                        <!-- <br> -->
-                        <!-- <em>Accepted to ICRA</em> -->
-                        <br>
-                        <a href="https://arxiv.org/pdf/2410.04646">[arXiv]</a>, 2024
-                        <br>
-                        <p></p>
-                        <p>
-                          We propose a novel 3D Gaussian Splatting algorithm that integrates monocular depth network with anchored Gaussian Splatting, enabling robust rendering performance on sparse-view datasets.
-                        </p>
-                      </td>
-                    </tr>
                 </td>
               </tr>
 
