@@ -62,6 +62,25 @@
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Recent News</heading>
+                  <p>
+                    🎉 <strong>[Jun 2026]</strong> Our paper has been accepted to <strong>ECCV 2026</strong>.
+                    <br>
+                    🏆 <strong>[Apr 2026]</strong> Selected as a finalist for the <strong>Qualcomm Innovation Fellowship</strong>.
+                    <br>
+                    🎉 <strong>[Oct 2025]</strong> Our paper has been accepted to <strong>WACV 2026</strong>.
+                    <br>
+                    🎉 <strong>[Sep 2025]</strong> Our paper has been accepted to <strong>NeurIPS 2025</strong>.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
                   <heading>Research</heading>
                   <p>
                     I am currently focusing on research in 3D multi-view foundation models.
@@ -80,7 +99,6 @@
 
 
 
-
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
@@ -88,48 +106,54 @@
               <heading>Preprints</heading>
 
 
-              <tr onmouseout="wid3r_stop()" onmouseover="wid3r_start()">
+              <tr onmouseout="panoplane_stop()" onmouseover="panoplane_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='wid3r_image'>
+                    <div class="two" id='panoplane_image'>
                       <br><br>
-                      <img src="image/Wid3R2.png" width="195" >
+                      <img src="image/panoplane.png" width="195" >
                     </div>
                     <br><br>
-                    <img src='image/Wid3R1.png' width="195">
+                    <img src='image/panoplane.png' width="195">
                   </div>
                   <script type="text/javascript">
-                    function wid3r_start() {
-                      document.getElementById('wid3r_image').style.opacity = "1";
+                    function panoplane_start() {
+                      document.getElementById('panoplane_image').style.opacity = "1";
                     }
 
-                    function wid3r_stop() {
-                      document.getElementById('wid3r_image').style.opacity = "0";
+                    function panoplane_stop() {
+                      document.getElementById('panoplane_image').style.opacity = "0";
                     }
-                    wid3r_stop()
+                    panoplane_stop()
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a
-                    href="https://arxiv.org/pdf/2602.05321">
-                    <papertitle>Wide Field-of-View 3D Reconstruction via Camera Model Conditioning
+                    href="https://arxiv.org/abs/2605.14135">
+                    <papertitle>PanoPlane: Plane-Aware Panoramic Completion for Sparse-View Indoor 3D Gaussian Splatting
                     </papertitle>
                   </a>
                   <br>
-
-                  <strong><u>Dongki Jung</u></strong>, Jaehoon Choi, Adil Qureshi, Somi Jeong, Dinesh Manocha, and Suyong Yeon
+                  Adil Qureshi, <strong><u>Dongki Jung</u></strong>, Jaehoon Choi, Dinesh Manocha
                   <br>
-                  <a href="https://arxiv.org/pdf/2602.05321">[arXiv]</a>
-                  <a href="https://jdk9405.github.io/Wid3R/">[Project]</a>
+                  <a href="https://arxiv.org/abs/2605.14135">[arXiv]</a>
                   <br>
-                    We present Wid3R, a feed-forward neural network for visual geometry reconstruction that supports wide field-of-view camera models.
+                    We present PanoPlane, an approach for high-fidelity sparse-view indoor novel view synthesis that reconstructs closed room geometry via panoramic scene completion.
                   </br>
                   <!-- <br><br><br> -->
                 </td>
               </tr>
 
+            </tbody>
+          </table>
 
 
+
+
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
 
               <tr onmouseout="uavtwin_stop()" onmouseover="uavtwin_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -182,6 +206,48 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+
+
+              <tr onmouseout="wid3r_stop()" onmouseover="wid3r_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='wid3r_image'>
+                      <br><br>
+                      <img src="image/Wid3R2.png" width="195" >
+                    </div>
+                    <br><br>
+                    <img src='image/Wid3R1.png' width="195">
+                  </div>
+                  <script type="text/javascript">
+                    function wid3r_start() {
+                      document.getElementById('wid3r_image').style.opacity = "1";
+                    }
+
+                    function wid3r_stop() {
+                      document.getElementById('wid3r_image').style.opacity = "0";
+                    }
+                    wid3r_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a
+                    href="https://arxiv.org/pdf/2602.05321">
+                    <papertitle>Wide Field-of-View 3D Reconstruction via Camera Model Conditioning
+                    </papertitle>
+                  </a>
+                  <br>
+
+                  <strong><u>Dongki Jung</u></strong>, Jaehoon Choi, Adil Qureshi, Somi Jeong, Dinesh Manocha, and Suyong Yeon
+                  <br>
+                  <a href="https://arxiv.org/pdf/2602.05321">[arXiv]</a>
+                  <a href="https://jdk9405.github.io/Wid3R/">[Project]</a>
+                  <br>
+                    We present Wid3R, a feed-forward neural network for visual geometry reconstruction that supports wide field-of-view camera models.
+                  </br>
+                  <!-- <br><br><br> -->
+                </td>
+              </tr>
+
 
               <tr onmouseout="more_stop()" onmouseover="more_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -546,7 +612,7 @@
                     </papertitle>
                   </a>
                   <br>
-                  Jaehoon Choi*, <strong><u>Dongki Jung</u></strong>*, Yonghan Lee, Deokhwa Kim, Dinesh Manocha, Donghwan Lee
+                  <strong><u>Dongki Jung</u></strong>*, Jaehoon Choi*, Yonghan Lee, Deokhwa Kim, Dinesh Manocha, Donghwan Lee
                   <br>
                   <em>ICRA</em>, 2022
                   <br>
@@ -713,7 +779,7 @@
                       Extraction</papertitle>
                   </a>
                   <br>
-                  Jaehoon Choi*, <strong><u>Dongki Jung</u></strong>*, Donghwan Lee, Changick Kim
+                  <strong><u>Dongki Jung</u></strong>*, Jaehoon Choi*, Donghwan Lee, Changick Kim
                   <br>
                   <em>NeurIPS Workshop on Machine Learning for Autonomous Driving</em>, 2020
                   <br>
